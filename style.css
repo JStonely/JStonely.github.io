@@ -34,3 +34,10 @@
       height: auto;
 
     }
+
+.img {
+  width: calc(50% - 10px); /* 50% of the container's width minus 10px for spacing */
+  float: left; /* Float the images to the left for columns */
+  margin: 5px; /* Add a margin of 5px around each image */
+}
+
