@@ -1,0 +1,36 @@
+/* CSS for the banner */
+    #banner {
+      width: 100%;
+      text-align: center;
+    }
+
+    #banner img {
+      width: 100%;
+    }
+
+    /* CSS for the navigation bar */
+    #navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      font: arial;
+    }
+
+    #navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 16px;
+    }
+
+    /* CSS for the images */
+    .images {
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+
+    .images img {
+      width: 45%;
+      height: auto;
+
+    }
